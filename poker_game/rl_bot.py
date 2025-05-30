@@ -7,12 +7,13 @@ from .player import Player, PlayerAction
 from .hand_evaluator import HandEvaluator
 from .database import GameDatabase
 from .card import Card
+import math
 
 class RLBot(Player):
     """强化学习机器人，具有学习和记忆能力"""
     
     def __init__(self, player_id: str, name: str, chips: int = 1000, 
-                 model_path: str = "rl_bot_model.pkl"):
+                 model_path: str = "models/rl_bot_model.pkl"):
         super().__init__(player_id, name, chips)
         self.model_path = model_path
         self.learning_rate = 0.1
@@ -27,6 +28,13 @@ class RLBot(Player):
         # 记忆系统
         self.memory = []
         self.memory_size = 1000
+        
+        # 训练进度追踪
+        self.last_snapshot_game_count = 0
+        self.snapshot_interval = 100  # 每100手记录一次进度
+        self.total_reward = 0
+        self.game_count = 0
+        self.win_count = 0
         
         # 加载已保存的模型
         self.load_model()
@@ -223,7 +231,14 @@ class RLBot(Player):
         # 计算奖励
         if hand_result.get('winner_id') == self.player_id:
             # 获胜
-            reward = hand_result.get('winnings', 0) / max(self.total_bet_in_hand, 1)
+            winnings = hand_result.get('winnings', 0)
+            roi_reward = winnings / max(self.total_bet_in_hand, 1)
+            # 防止数值溢出
+            if math.isinf(roi_reward) or math.isnan(roi_reward) or roi_reward > 10.0:
+                reward = 10.0  # 设置最大奖励上限
+            else:
+                reward = min(10.0, roi_reward)  # 限制在10.0以内
+            self.win_count += 1
         else:
             # 失败
             reward = -self.total_bet_in_hand / max(self.chips + self.total_bet_in_hand, 1)
@@ -232,7 +247,16 @@ class RLBot(Player):
         if self.is_folded:
             reward = -0.1
         
+        # 更新统计
+        self.total_reward += reward
+        self.game_count += 1
+        
         self.update_q_value(reward)
+        
+        # 记录训练进度 (每N手记录一次)
+        if (self.game_count - self.last_snapshot_game_count) >= self.snapshot_interval:
+            self._record_training_progress()
+            self.last_snapshot_game_count = self.game_count
         
         # 保存学习数据到数据库
         if hasattr(self, 'db'):
@@ -253,6 +277,37 @@ class RLBot(Player):
                 opponents_count=len([p for p in game_state.get('other_players', []) 
                                    if not p.get('is_folded', False)])
             )
+    
+    def _record_training_progress(self):
+        """记录训练进度到追踪器"""
+        try:
+            from .training_tracker import TrainingTracker
+            
+            tracker = TrainingTracker()
+            
+            # 获取当前统计
+            current_stats = self.get_learning_stats()
+            current_stats.update({
+                'game_count': self.game_count,
+                'win_count': self.win_count,
+                'total_reward': self.total_reward,
+                'win_rate': self.win_count / max(1, self.game_count),
+                'avg_reward': self.total_reward / max(1, self.game_count)
+            })
+            
+            # 添加额外信息
+            additional_info = {
+                'snapshot_interval': self.snapshot_interval,
+                'model_path': self.model_path,
+                'current_chips': self.chips
+            }
+            
+            # 记录快照
+            tracker.record_snapshot('rl_bot', current_stats, additional_info)
+            
+        except Exception as e:
+            # 静默处理错误，不影响训练
+            pass
     
     def decay_epsilon(self):
         """衰减探索率"""

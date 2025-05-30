@@ -1,0 +1,138 @@
+{
+  "models": {
+    "conservative_rl_bot_model.pkl": {
+      "first_seen": "2025-05-30T13:37:51.191340",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T13:37:51.191340",
+          "size": 13796,
+          "size_kb": 13.47,
+          "game_count": 1,
+          "win_count": 1,
+          "total_reward": 5.5699999999999985,
+          "epsilon": 0.09870777147137148,
+          "win_rate": 100.0,
+          "avg_reward": 5.57,
+          "states_count": 63,
+          "state_action_pairs": 522
+        }
+      ],
+      "latest": {
+        "timestamp": "2025-05-30T13:37:51.191340",
+        "size": 13796,
+        "size_kb": 13.47,
+        "game_count": 1,
+        "win_count": 1,
+        "total_reward": 5.5699999999999985,
+        "epsilon": 0.09870777147137148,
+        "win_rate": 100.0,
+        "avg_reward": 5.57,
+        "states_count": 63,
+        "state_action_pairs": 522
+      }
+    },
+    "improved_rl_bot_model.pkl": {
+      "first_seen": "2025-05-30T13:37:51.197542",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T13:37:51.197542",
+          "size": 35966,
+          "size_kb": 35.12,
+          "game_count": 496,
+          "win_count": 203,
+          "total_reward": 266.52868966841373,
+          "epsilon": 0.09501122132435236,
+          "win_rate": 40.93,
+          "avg_reward": 0.5374,
+          "states_count": 158,
+          "state_action_pairs": 1688
+        }
+      ],
+      "latest": {
+        "timestamp": "2025-05-30T13:37:51.197542",
+        "size": 35966,
+        "size_kb": 35.12,
+        "game_count": 496,
+        "win_count": 203,
+        "total_reward": 266.52868966841373,
+        "epsilon": 0.09501122132435236,
+        "win_rate": 40.93,
+        "avg_reward": 0.5374,
+        "states_count": 158,
+        "state_action_pairs": 1688
+      }
+    },
+    "rl_bot_model.pkl": {
+      "first_seen": "2025-05-30T13:37:51.202939",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T13:37:51.202939",
+          "size": 80134,
+          "size_kb": 78.26,
+          "game_count": 0,
+          "win_count": 0,
+          "total_reward": 0,
+          "epsilon": 0.01,
+          "win_rate": 0,
+          "avg_reward": 0,
+          "states_count": 572,
+          "state_action_pairs": 4090
+        }
+      ],
+      "latest": {
+        "timestamp": "2025-05-30T13:37:51.202939",
+        "size": 80134,
+        "size_kb": 78.26,
+        "game_count": 0,
+        "win_count": 0,
+        "total_reward": 0,
+        "epsilon": 0.01,
+        "win_rate": 0,
+        "avg_reward": 0,
+        "states_count": 572,
+        "state_action_pairs": 4090
+      }
+    }
+  },
+  "snapshots": [
+    {
+      "model": "conservative_rl_bot_model.pkl",
+      "timestamp": "2025-05-30T13:37:51.191340",
+      "size": 13796,
+      "game_count": 1,
+      "win_count": 1,
+      "total_reward": 5.5699999999999985,
+      "epsilon": 0.09870777147137148,
+      "win_rate": 100.0,
+      "avg_reward": 5.57,
+      "states_count": 63,
+      "state_action_pairs": 522
+    },
+    {
+      "model": "improved_rl_bot_model.pkl",
+      "timestamp": "2025-05-30T13:37:51.197542",
+      "size": 35966,
+      "game_count": 496,
+      "win_count": 203,
+      "total_reward": 266.52868966841373,
+      "epsilon": 0.09501122132435236,
+      "win_rate": 40.93,
+      "avg_reward": 0.5374,
+      "states_count": 158,
+      "state_action_pairs": 1688
+    },
+    {
+      "model": "rl_bot_model.pkl",
+      "timestamp": "2025-05-30T13:37:51.202939",
+      "size": 80134,
+      "game_count": 0,
+      "win_count": 0,
+      "total_reward": 0,
+      "epsilon": 0.01,
+      "win_rate": 0,
+      "avg_reward": 0,
+      "states_count": 572,
+      "state_action_pairs": 4090
+    }
+  ]
+}

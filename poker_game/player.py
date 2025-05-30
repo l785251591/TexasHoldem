@@ -62,7 +62,33 @@ class Player(ABC):
     
     def win_chips(self, amount: int):
         """赢得筹码"""
+        import math
+        
+        # 安全检查：防止数值溢出
+        MAX_SAFE_CHIPS = 10**12  # 1万亿筹码上限
+        
+        if not isinstance(amount, (int, float)) or math.isinf(amount) or math.isnan(amount):
+            print(f"⚠️ 异常奖金数值: {amount}，忽略此次赢得")
+            return
+        
+        if amount < 0:
+            print(f"⚠️ 负数奖金: {amount}，忽略此次赢得")
+            return
+        
+        # 限制单次赢得的最大金额
+        amount = min(amount, MAX_SAFE_CHIPS)
+        
+        # 确保总筹码不超过安全上限
+        if self.chips + amount > MAX_SAFE_CHIPS:
+            amount = MAX_SAFE_CHIPS - self.chips
+            if amount < 0:
+                amount = 0
+        
         self.chips += amount
+        
+        # 最终检查
+        if self.chips > MAX_SAFE_CHIPS:
+            self.chips = MAX_SAFE_CHIPS
     
     @abstractmethod
     def get_action(self, game_state: Dict[str, Any]) -> tuple[PlayerAction, int]:

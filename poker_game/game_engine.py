@@ -176,19 +176,35 @@ class PokerGame:
             sb_pos = (self.dealer_position + 1) % len(self.players)
             bb_pos = (self.dealer_position + 2) % len(self.players)
         
-        # 下小盲注
+        # 确保盲注玩家有筹码
         sb_player = self.players[sb_pos]
+        bb_player = self.players[bb_pos]
+        
+        # 如果盲注玩家没有筹码，在训练模式下给予最少筹码
+        if hasattr(self, 'training_mode') and self.training_mode:
+            if sb_player.chips <= 0:
+                sb_player.chips = max(self.small_blind * 2, 20)
+                print(f"⚖️  训练模式：为 {sb_player.name} 补充筹码到 {sb_player.chips}")
+            if bb_player.chips <= 0:
+                bb_player.chips = max(self.big_blind * 2, 40)
+                print(f"⚖️  训练模式：为 {bb_player.name} 补充筹码到 {bb_player.chips}")
+        
+        # 下小盲注
         sb_amount = sb_player.bet(min(self.small_blind, sb_player.chips))
         self.pot += sb_amount
         print(f"💸 {sb_player.name} 下小盲注 {sb_amount}")
         
         # 下大盲注
-        bb_player = self.players[bb_pos]
         bb_amount = bb_player.bet(min(self.big_blind, bb_player.chips))
         self.pot += bb_amount
         self.current_bet = bb_amount
         print(f"💸 {bb_player.name} 下大盲注 {bb_amount}")
         print(f"💰 底池: {self.pot}")
+        
+        # 如果盲注为0，设置最小下注
+        if self.current_bet == 0:
+            self.current_bet = max(self.big_blind // 4, 1)  # 至少设置一个最小值
+            print(f"⚠️  调整最小下注到 {self.current_bet}")
         
         # 等待玩家观察盲注情况
         self._wait_for_human_observation(1.0)
@@ -551,9 +567,10 @@ class PokerGame:
     def _update_learning_bots(self):
         """更新强化学习机器人"""
         from .rl_bot import RLBot
+        from .improved_rl_bot import ImprovedRLBot
         
         for player in self.players:
-            if isinstance(player, RLBot):
+            if isinstance(player, (RLBot, ImprovedRLBot)):
                 hand_result = {
                     'winner_id': self._get_hand_winner_id(),
                     'winnings': self._get_player_winnings(player),
@@ -632,8 +649,9 @@ class PokerGame:
         
         # 保存强化学习机器人的模型
         from .rl_bot import RLBot
+        from .improved_rl_bot import ImprovedRLBot
         for player in self.players:
-            if isinstance(player, RLBot):
+            if isinstance(player, (RLBot, ImprovedRLBot)):
                 player.save_model()
         
         print(f"\n感谢您的游戏！再见！👋")

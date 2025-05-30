@@ -1,0 +1,4570 @@
+{
+  "bots": {
+    "rl_bot": {
+      "name": "原版强化学习机器人",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T12:12:27.646629",
+          "unix_timestamp": 1748578347.6466298,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4068,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 7,
+            "total_reward": 1.199999999999997,
+            "win_rate": 0.07,
+            "avg_reward": 0.01199999999999997
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 730
+          },
+          "calculated_win_rate": 7.000000000000001
+        },
+        {
+          "timestamp": "2025-05-30T12:12:27.662272",
+          "unix_timestamp": 1748578347.6622722,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4068,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 4,
+            "total_reward": -3.600000000000005,
+            "win_rate": 0.04,
+            "avg_reward": -0.03600000000000005
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 570
+          },
+          "calculated_win_rate": 4.0
+        },
+        {
+          "timestamp": "2025-05-30T12:12:33.326564",
+          "unix_timestamp": 1748578353.3265643,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4068,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 12,
+            "total_reward": -0.8000000000000057,
+            "win_rate": 0.06,
+            "avg_reward": -0.004000000000000029
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 240
+          },
+          "calculated_win_rate": 6.0
+        },
+        {
+          "timestamp": "2025-05-30T12:12:33.343004",
+          "unix_timestamp": 1748578353.3430042,
+          "stats": {
+            "q_table_size": 571,
+            "total_states": 4074,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 8,
+            "total_reward": -7.199999999999973,
+            "win_rate": 0.04,
+            "avg_reward": -0.035999999999999865
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 100
+          },
+          "calculated_win_rate": 4.0
+        },
+        {
+          "timestamp": "2025-05-30T12:13:06.472242",
+          "unix_timestamp": 1748578386.4722426,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4070,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 5,
+            "total_reward": -2.000000000000003,
+            "win_rate": 0.05,
+            "avg_reward": -0.02000000000000003
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 610
+          },
+          "calculated_win_rate": 5.0
+        },
+        {
+          "timestamp": "2025-05-30T12:13:06.490844",
+          "unix_timestamp": 1748578386.4908447,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4073,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 8,
+            "total_reward": 1.39831077966379,
+            "win_rate": 0.08,
+            "avg_reward": 0.0139831077966379
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 560
+          },
+          "calculated_win_rate": 8.0
+        },
+        {
+          "timestamp": "2025-05-30T12:13:11.333027",
+          "unix_timestamp": 1748578391.3330274,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4070,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 14,
+            "total_reward": 2.399999999999996,
+            "win_rate": 0.07,
+            "avg_reward": 0.01199999999999998
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 220
+          },
+          "calculated_win_rate": 7.000000000000001
+        },
+        {
+          "timestamp": "2025-05-30T12:13:11.351816",
+          "unix_timestamp": 1748578391.3518164,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4073,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 18,
+            "total_reward": 7.398310779663811,
+            "win_rate": 0.09,
+            "avg_reward": 0.036991553898319054
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 260
+          },
+          "calculated_win_rate": 9.0
+        },
+        {
+          "timestamp": "2025-05-30T12:13:40.348149",
+          "unix_timestamp": 1748578420.348149,
+          "stats": {
+            "q_table_size": 571,
+            "total_states": 4083,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 5,
+            "total_reward": -2.4680851063829836,
+            "win_rate": 0.05,
+            "avg_reward": -0.024680851063829837
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 670
+          },
+          "calculated_win_rate": 5.0
+        },
+        {
+          "timestamp": "2025-05-30T12:13:45.671176",
+          "unix_timestamp": 1748578425.6711762,
+          "stats": {
+            "q_table_size": 572,
+            "total_states": 4090,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 13,
+            "total_reward": 0.5819148936170114,
+            "win_rate": 0.065,
+            "avg_reward": 0.002909574468085057
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/rl_bot_model.pkl",
+            "current_chips": 310
+          },
+          "calculated_win_rate": 6.5
+        }
+      ],
+      "statistics": {
+        "total_training_time": 0,
+        "total_hands": 200,
+        "best_win_rate": 9.0,
+        "current_streak": 1,
+        "longest_streak": 2
+      }
+    },
+    "improved_rl_bot": {
+      "name": "改进版强化学习机器人",
+      "snapshots": [],
+      "statistics": {
+        "total_training_time": 0,
+        "total_hands": 0,
+        "best_win_rate": 0,
+        "current_streak": 0,
+        "longest_streak": 0
+      }
+    },
+    "conservative_rl_bot": {
+      "name": "保守版强化学习机器人",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T11:20:15.907580",
+          "unix_timestamp": 1748575215.90758,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 93,
+            "epsilon": 0.0924928329568143,
+            "memory_size": 35,
+            "total_reward": 3.937373474395919,
+            "game_count": 100,
+            "win_rate": 0.0,
+            "avg_reward": 0.03937373474395919,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1310,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:10.495626",
+          "unix_timestamp": 1748575270.4956264,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 6.325105721026827,
+            "game_count": 147,
+            "win_rate": 0.0,
+            "avg_reward": 0.04302793007501243,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 950,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:10.497646",
+          "unix_timestamp": 1748575270.4976463,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 6.330323112331175,
+            "game_count": 147,
+            "win_rate": 0.0,
+            "avg_reward": 0.04306342253286514,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1100,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:20.621379",
+          "unix_timestamp": 1748575280.6222997,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 7.465645816291389,
+            "game_count": 180,
+            "win_rate": 0.0,
+            "avg_reward": 0.041475810090507714,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1388,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:20.624454",
+          "unix_timestamp": 1748575280.6244545,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 7.412084493136172,
+            "game_count": 180,
+            "win_rate": 0.0,
+            "avg_reward": 0.04117824718408984,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 816,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:24.616159",
+          "unix_timestamp": 1748575284.616159,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 8.345512765975304,
+            "game_count": 201,
+            "win_rate": 0.0,
+            "avg_reward": 0.04151996400982738,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:24.619847",
+          "unix_timestamp": 1748575284.6198478,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 8.337512765975303,
+            "game_count": 201,
+            "win_rate": 0.0,
+            "avg_reward": 0.0414801630148025,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:28.400225",
+          "unix_timestamp": 1748575288.4002252,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 9.24566288895453,
+            "game_count": 217,
+            "win_rate": 0.0,
+            "avg_reward": 0.0426067414237536,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:28.403907",
+          "unix_timestamp": 1748575288.4039075,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 9.275662888954532,
+            "game_count": 217,
+            "win_rate": 0.0,
+            "avg_reward": 0.04274499027167987,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:33.981307",
+          "unix_timestamp": 1748575293.9813075,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 11.281387492168513,
+            "game_count": 259,
+            "win_rate": 0.0,
+            "avg_reward": 0.04355748066474329,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:33.984890",
+          "unix_timestamp": 1748575293.9848902,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 96,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 11.281387492168513,
+            "game_count": 259,
+            "win_rate": 0.0,
+            "avg_reward": 0.04355748066474329,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:36.441316",
+          "unix_timestamp": 1748575296.4413166,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 97,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 11.590204999763486,
+            "game_count": 273,
+            "win_rate": 0.0,
+            "avg_reward": 0.04245496336909702,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 924,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:36.443334",
+          "unix_timestamp": 1748575296.4433346,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 97,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 11.590204999763486,
+            "game_count": 273,
+            "win_rate": 0.0,
+            "avg_reward": 0.04245496336909702,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 924,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:39.353379",
+          "unix_timestamp": 1748575299.353379,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 97,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 11.91653656036207,
+            "game_count": 279,
+            "win_rate": 0.0,
+            "avg_reward": 0.042711600574774446,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:39.381498",
+          "unix_timestamp": 1748575299.3814983,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 97,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 11.88453656036207,
+            "game_count": 279,
+            "win_rate": 0.0,
+            "avg_reward": 0.042596905234272654,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:46.434088",
+          "unix_timestamp": 1748575306.434089,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 97,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 13.952171338802673,
+            "game_count": 324,
+            "win_rate": 0.0,
+            "avg_reward": 0.043062257218526766,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1022,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:21:47.449675",
+          "unix_timestamp": 1748575307.4496756,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 97,
+            "epsilon": 0.0986090636999001,
+            "memory_size": 2,
+            "total_reward": 13.93901344406583,
+            "game_count": 324,
+            "win_rate": 0.0,
+            "avg_reward": 0.04302164643230195,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1196,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:22:08.842282",
+          "unix_timestamp": 1748575328.842282,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.06400409317729634,
+            "memory_size": 122,
+            "total_reward": 18.261804892113346,
+            "game_count": 424,
+            "win_rate": 0.0,
+            "avg_reward": 0.0430702945568711,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8400000000000001,
+            "max_bet_ratio": 0.15999999999999998,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 479,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8400000000000001,
+            "max_bet_ratio": 0.15999999999999998
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:22:11.318018",
+          "unix_timestamp": 1748575331.3180182,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 18.494249332570178,
+            "game_count": 430,
+            "win_rate": 0.0,
+            "avg_reward": 0.04300988216876785,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:22:11.323141",
+          "unix_timestamp": 1748575331.3241856,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 18.48624933257018,
+            "game_count": 430,
+            "win_rate": 0.0,
+            "avg_reward": 0.042991277517605064,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:22:35.039171",
+          "unix_timestamp": 1748575355.0391717,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.062049442496789536,
+            "memory_size": 137,
+            "total_reward": 23.904120019917865,
+            "game_count": 530,
+            "win_rate": 0.0,
+            "avg_reward": 0.04510211324512805,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1025,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:22:42.963029",
+          "unix_timestamp": 1748575362.9630296,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 28.02072576278462,
+            "game_count": 612,
+            "win_rate": 0.0,
+            "avg_reward": 0.045785499612393164,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 820,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:22:43.049245",
+          "unix_timestamp": 1748575363.0492458,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0997002999,
+            "memory_size": 3,
+            "total_reward": 28.012372821608146,
+            "game_count": 612,
+            "win_rate": 0.0,
+            "avg_reward": 0.04577185101569958,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 788,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:00.883068",
+          "unix_timestamp": 1748575380.883069,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.06776023755886544,
+            "memory_size": 131,
+            "total_reward": 33.5798785006558,
+            "game_count": 712,
+            "win_rate": 0.0,
+            "avg_reward": 0.04716275070316826,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 563,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:03.736970",
+          "unix_timestamp": 1748575383.7369704,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 33.70550168768699,
+            "game_count": 718,
+            "win_rate": 0.0,
+            "avg_reward": 0.046943595665302214,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 904,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:03.739508",
+          "unix_timestamp": 1748575383.7395084,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 33.727600832986134,
+            "game_count": 718,
+            "win_rate": 0.0,
+            "avg_reward": 0.04697437441920074,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1308,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:08.980462",
+          "unix_timestamp": 1748575388.9804623,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 34.918096865260644,
+            "game_count": 740,
+            "win_rate": 0.0,
+            "avg_reward": 0.04718661738548736,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:08.983488",
+          "unix_timestamp": 1748575388.9834886,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 34.936096865260645,
+            "game_count": 740,
+            "win_rate": 0.0,
+            "avg_reward": 0.04721094170981168,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:20.978130",
+          "unix_timestamp": 1748575400.978131,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 37.665273337217435,
+            "game_count": 795,
+            "win_rate": 0.0,
+            "avg_reward": 0.04737770231096533,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:20.982228",
+          "unix_timestamp": 1748575400.9822285,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 37.69527333721744,
+            "game_count": 795,
+            "win_rate": 0.0,
+            "avg_reward": 0.04741543816002193,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:36.900669",
+          "unix_timestamp": 1748575416.9006698,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 40.647009912002616,
+            "game_count": 860,
+            "win_rate": 0.0,
+            "avg_reward": 0.04726396501395653,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1180,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:37.080176",
+          "unix_timestamp": 1748575417.0801764,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 40.62103873835814,
+            "game_count": 860,
+            "win_rate": 0.0,
+            "avg_reward": 0.04723376597483504,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 864,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:51.702656",
+          "unix_timestamp": 1748575431.702656,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 42.748550755702716,
+            "game_count": 905,
+            "win_rate": 0.0,
+            "avg_reward": 0.04723596768585935,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:23:51.706801",
+          "unix_timestamp": 1748575431.706801,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 42.74945641608007,
+            "game_count": 905,
+            "win_rate": 0.0,
+            "avg_reward": 0.04723696841555809,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1040,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:05.345238",
+          "unix_timestamp": 1748575445.3463054,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 44.94360834215278,
+            "game_count": 960,
+            "win_rate": 0.0,
+            "avg_reward": 0.04681625868974248,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:05.352498",
+          "unix_timestamp": 1748575445.3524983,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 100,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 44.93560834215278,
+            "game_count": 960,
+            "win_rate": 0.0,
+            "avg_reward": 0.046807925356409145,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:12.537004",
+          "unix_timestamp": 1748575452.5370045,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 101,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 46.10278003866326,
+            "game_count": 992,
+            "win_rate": 0.0,
+            "avg_reward": 0.04647457665187829,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:12.541600",
+          "unix_timestamp": 1748575452.5416,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 101,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 46.07278003866326,
+            "game_count": 992,
+            "win_rate": 0.0,
+            "avg_reward": 0.04644433471639441,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:26.914950",
+          "unix_timestamp": 1748575466.9149501,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 101,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 49.49299349428053,
+            "game_count": 1070,
+            "win_rate": 0.0,
+            "avg_reward": 0.046255134106804235,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1100,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:26.921119",
+          "unix_timestamp": 1748575466.9211197,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 101,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 49.517776102976185,
+            "game_count": 1070,
+            "win_rate": 0.0,
+            "avg_reward": 0.046278295423342226,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 950,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:32.321658",
+          "unix_timestamp": 1748575472.3216581,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 101,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 50.16371174169457,
+            "game_count": 1081,
+            "win_rate": 0.0,
+            "avg_reward": 0.046404913729597194,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:32.331299",
+          "unix_timestamp": 1748575472.3312995,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 101,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 50.155711741694574,
+            "game_count": 1081,
+            "win_rate": 0.0,
+            "avg_reward": 0.04639751317455557,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:24:54.870292",
+          "unix_timestamp": 1748575494.8702924,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.06742211329618307,
+            "memory_size": 136,
+            "total_reward": 55.6148722453775,
+            "game_count": 1181,
+            "win_rate": 0.0,
+            "avg_reward": 0.04709133975053133,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1102,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:06.014154",
+          "unix_timestamp": 1748575506.0141544,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 102,
+            "epsilon": 0.05631061126214208,
+            "memory_size": 124,
+            "total_reward": 55.353952093129585,
+            "game_count": 1181,
+            "win_rate": 0.0,
+            "avg_reward": 0.04687040820756104,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 923,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:09.541257",
+          "unix_timestamp": 1748575509.5412576,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 56.11644203605384,
+            "game_count": 1200,
+            "win_rate": 0.0,
+            "avg_reward": 0.046763701696711533,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1060,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:09.546456",
+          "unix_timestamp": 1748575509.5464566,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 56.11525685086866,
+            "game_count": 1200,
+            "win_rate": 0.0,
+            "avg_reward": 0.04676271404239055,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:23.514451",
+          "unix_timestamp": 1748575523.5144515,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.07137884761549386,
+            "memory_size": 132,
+            "total_reward": 60.87509800866069,
+            "game_count": 1300,
+            "win_rate": 0.0,
+            "avg_reward": 0.046826998468200536,
+            "conservative_mode": true,
+            "aggression_threshold": 0.9,
+            "max_bet_ratio": 0.1,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 516,
+            "conservative_mode": true,
+            "aggression_threshold": 0.9,
+            "max_bet_ratio": 0.1
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:28.339761",
+          "unix_timestamp": 1748575528.3397613,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 61.61088200749391,
+            "game_count": 1319,
+            "win_rate": 0.0,
+            "avg_reward": 0.046710297200526094,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:28.344903",
+          "unix_timestamp": 1748575528.3449037,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 61.55288200749391,
+            "game_count": 1319,
+            "win_rate": 0.0,
+            "avg_reward": 0.046666324493930184,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:42.247142",
+          "unix_timestamp": 1748575542.2471426,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 63.846629906650854,
+            "game_count": 1378,
+            "win_rate": 0.0,
+            "avg_reward": 0.04633282286404271,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 875,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:42.253491",
+          "unix_timestamp": 1748575542.2534916,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 3,
+            "total_reward": 63.876629906650855,
+            "game_count": 1378,
+            "win_rate": 0.0,
+            "avg_reward": 0.04635459354619075,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 875,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:57.720988",
+          "unix_timestamp": 1748575557.7209883,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 67.36965970317678,
+            "game_count": 1458,
+            "win_rate": 0.0,
+            "avg_reward": 0.046206899659243336,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 955,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:25:57.726599",
+          "unix_timestamp": 1748575557.7265997,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 67.34765970317679,
+            "game_count": 1458,
+            "win_rate": 0.0,
+            "avg_reward": 0.04619181049600603,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:01.171407",
+          "unix_timestamp": 1748575561.1714075,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 68.26227524478992,
+            "game_count": 1473,
+            "win_rate": 0.0,
+            "avg_reward": 0.0463423457194772,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1180,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:01.267576",
+          "unix_timestamp": 1748575561.2675767,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 68.22098492220927,
+            "game_count": 1473,
+            "win_rate": 0.0,
+            "avg_reward": 0.04631431427169672,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:10.315747",
+          "unix_timestamp": 1748575570.3157473,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 68.75188583425343,
+            "game_count": 1498,
+            "win_rate": 0.0,
+            "avg_reward": 0.04589578493608373,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 905,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:10.322117",
+          "unix_timestamp": 1748575570.322117,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 68.76988583425343,
+            "game_count": 1498,
+            "win_rate": 0.0,
+            "avg_reward": 0.045907800957445545,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:34.076140",
+          "unix_timestamp": 1748575594.07614,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 73.35899617093695,
+            "game_count": 1585,
+            "win_rate": 0.0,
+            "avg_reward": 0.04628327834128514,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1020,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:34.182783",
+          "unix_timestamp": 1748575594.182783,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 73.32438078632156,
+            "game_count": 1585,
+            "win_rate": 0.0,
+            "avg_reward": 0.04626143898190634,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:47.439971",
+          "unix_timestamp": 1748575607.4399714,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 76.9569059692512,
+            "game_count": 1676,
+            "win_rate": 0.0,
+            "avg_reward": 0.045917008334875414,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:58.924156",
+          "unix_timestamp": 1748575618.924157,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 79.61822721807516,
+            "game_count": 1748,
+            "win_rate": 0.0,
+            "avg_reward": 0.04554818490736565,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1180,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:26:59.011326",
+          "unix_timestamp": 1748575619.0113266,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 79.60693689549451,
+            "game_count": 1748,
+            "win_rate": 0.0,
+            "avg_reward": 0.0455417259127543,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:15.056144",
+          "unix_timestamp": 1748575635.0561438,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.07045646978320014,
+            "memory_size": 124,
+            "total_reward": 84.5950699760057,
+            "game_count": 1848,
+            "win_rate": 0.0,
+            "avg_reward": 0.0457765530173191,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1069,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:29.166531",
+          "unix_timestamp": 1748575649.1665313,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 89.88280564632731,
+            "game_count": 1946,
+            "win_rate": 0.0,
+            "avg_reward": 0.04618849211013736,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:29.172652",
+          "unix_timestamp": 1748575649.1726525,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 89.88280564632731,
+            "game_count": 1946,
+            "win_rate": 0.0,
+            "avg_reward": 0.04618849211013736,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:42.238794",
+          "unix_timestamp": 1748575662.2387948,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 91.85506774686698,
+            "game_count": 1987,
+            "win_rate": 0.0,
+            "avg_reward": 0.04622801597728585,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:42.243846",
+          "unix_timestamp": 1748575662.243847,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 91.91506774686698,
+            "game_count": 1987,
+            "win_rate": 0.0,
+            "avg_reward": 0.0462582122530785,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 950,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:46.194879",
+          "unix_timestamp": 1748575666.194879,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 92.99347968460906,
+            "game_count": 2009,
+            "win_rate": 0.0,
+            "avg_reward": 0.0462884418539617,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:27:46.201314",
+          "unix_timestamp": 1748575666.2013144,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 93.08347968460906,
+            "game_count": 2009,
+            "win_rate": 0.0,
+            "avg_reward": 0.04633324026112945,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 950,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:28:06.945534",
+          "unix_timestamp": 1748575686.945535,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 96.14899361611513,
+            "game_count": 2072,
+            "win_rate": 0.0,
+            "avg_reward": 0.046403954447932015,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1060,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:28:07.023636",
+          "unix_timestamp": 1748575687.0236366,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 96.10748190031771,
+            "game_count": 2072,
+            "win_rate": 0.0,
+            "avg_reward": 0.04638391983606067,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 911,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:28:16.610019",
+          "unix_timestamp": 1748575696.6100197,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.07579494437963867,
+            "memory_size": 129,
+            "total_reward": 100.93973594324422,
+            "game_count": 2172,
+            "win_rate": 0.0,
+            "avg_reward": 0.04647317492782883,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 924,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:28:28.066438",
+          "unix_timestamp": 1748575708.0664387,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 103.6408426682047,
+            "game_count": 2230,
+            "win_rate": 0.0,
+            "avg_reward": 0.04647571420098865,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:28:28.076868",
+          "unix_timestamp": 1748575708.0768685,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 103.65013299078534,
+            "game_count": 2230,
+            "win_rate": 0.0,
+            "avg_reward": 0.04647988026492616,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1180,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:29:18.299289",
+          "unix_timestamp": 1748575758.2992892,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 105.67865053752989,
+            "game_count": 2277,
+            "win_rate": 0.0,
+            "avg_reward": 0.04641135289307417,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 820,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:29:18.311696",
+          "unix_timestamp": 1748575758.3116965,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 103,
+            "epsilon": 0.0999,
+            "memory_size": 2,
+            "total_reward": 105.70865053752989,
+            "game_count": 2277,
+            "win_rate": 0.0,
+            "avg_reward": 0.04642452812364071,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 820,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:29:30.788661",
+          "unix_timestamp": 1748575770.7886617,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 107.46515106087942,
+            "game_count": 2317,
+            "win_rate": 0.0,
+            "avg_reward": 0.04638116144189876,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1060,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:29:30.794712",
+          "unix_timestamp": 1748575770.7947123,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 107.46000820373656,
+            "game_count": 2317,
+            "win_rate": 0.0,
+            "avg_reward": 0.046378941822933346,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 940,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:00.560621",
+          "unix_timestamp": 1748576340.5606217,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 107.72640256993374,
+            "game_count": 2322,
+            "win_rate": 0.0,
+            "avg_reward": 0.046393799556388345,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:00.567151",
+          "unix_timestamp": 1748576340.5671518,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 107.72758775511892,
+            "game_count": 2322,
+            "win_rate": 0.0,
+            "avg_reward": 0.0463943099720581,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1060,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:01.479426",
+          "unix_timestamp": 1748576341.4794269,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.09910359161258742,
+            "memory_size": 1,
+            "total_reward": 107.71977173542172,
+            "game_count": 2322,
+            "win_rate": 0.0,
+            "avg_reward": 0.046390943899837084,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 687,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:01.486766",
+          "unix_timestamp": 1748576341.4867668,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.09910359161258742,
+            "memory_size": 1,
+            "total_reward": 107.72340019463682,
+            "game_count": 2322,
+            "win_rate": 0.0,
+            "avg_reward": 0.04639250654377124,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 822,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:26.527043",
+          "unix_timestamp": 1748576366.5270433,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0662187760294769,
+            "memory_size": 163,
+            "total_reward": 114.44221413516098,
+            "game_count": 2422,
+            "win_rate": 0.0,
+            "avg_reward": 0.04725112061732493,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1018,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:35.003423",
+          "unix_timestamp": 1748576375.0034235,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.05750624217730252,
+            "memory_size": 162,
+            "total_reward": 113.9411838028775,
+            "game_count": 2422,
+            "win_rate": 0.0,
+            "avg_reward": 0.0470442542538718,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 846,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:35.816384",
+          "unix_timestamp": 1748576375.8163843,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.051256168059348975,
+            "memory_size": 323,
+            "total_reward": 121.48937709625939,
+            "game_count": 2522,
+            "win_rate": 0.0,
+            "avg_reward": 0.04817183865831062,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 962,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:45.193847",
+          "unix_timestamp": 1748576385.193848,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.035933080899870934,
+            "memory_size": 452,
+            "total_reward": 127.29155636871029,
+            "game_count": 2622,
+            "win_rate": 0.0,
+            "avg_reward": 0.04854750433589256,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8300000000000001,
+            "max_bet_ratio": 0.16999999999999998,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 999,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8300000000000001,
+            "max_bet_ratio": 0.16999999999999998
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:49.278074",
+          "unix_timestamp": 1748576389.278075,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.02784158481489371,
+            "memory_size": 577,
+            "total_reward": 133.1347988211165,
+            "game_count": 2722,
+            "win_rate": 0.0,
+            "avg_reward": 0.04891065349783854,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8500000000000001,
+            "max_bet_ratio": 0.14999999999999997,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1059,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8500000000000001,
+            "max_bet_ratio": 0.14999999999999997
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:39:55.183181",
+          "unix_timestamp": 1748576395.1831813,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.020335612409213808,
+            "memory_size": 709,
+            "total_reward": 138.6062928106566,
+            "game_count": 2822,
+            "win_rate": 0.0,
+            "avg_reward": 0.04911633338435741,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8600000000000001,
+            "max_bet_ratio": 0.13999999999999996,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 869,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8600000000000001,
+            "max_bet_ratio": 0.13999999999999996
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:21.079341",
+          "unix_timestamp": 1748576421.0793412,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 143.7435286543522,
+            "game_count": 2912,
+            "win_rate": 0.0,
+            "avg_reward": 0.04936247549943413,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1380,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:21.197075",
+          "unix_timestamp": 1748576421.1970754,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 143.73736427079055,
+            "game_count": 2912,
+            "win_rate": 0.0,
+            "avg_reward": 0.049360358609474776,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 900,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:21.825853",
+          "unix_timestamp": 1748576421.8258533,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.09920279440699441,
+            "memory_size": 1,
+            "total_reward": 143.75641649516191,
+            "game_count": 2912,
+            "win_rate": 0.0,
+            "avg_reward": 0.04936690126894296,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 497,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:31.311194",
+          "unix_timestamp": 1748576431.3111944,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.08546369224228777,
+            "memory_size": 1,
+            "total_reward": 143.72841690236947,
+            "game_count": 2912,
+            "win_rate": 0.0,
+            "avg_reward": 0.049357286024165344,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1144,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:38.985969",
+          "unix_timestamp": 1748576438.9859688,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 145.84331315814254,
+            "game_count": 2953,
+            "win_rate": 0.0,
+            "avg_reward": 0.0493881859661844,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:39.022685",
+          "unix_timestamp": 1748576439.0226855,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 145.84331315814254,
+            "game_count": 2953,
+            "win_rate": 0.0,
+            "avg_reward": 0.0493881859661844,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 910,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:39.030995",
+          "unix_timestamp": 1748576439.0309956,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 145.84331315814254,
+            "game_count": 2953,
+            "win_rate": 0.0,
+            "avg_reward": 0.0493881859661844,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1010,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:39.045051",
+          "unix_timestamp": 1748576439.0450509,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 145.8345219493513,
+            "game_count": 2953,
+            "win_rate": 0.0,
+            "avg_reward": 0.04938520892290935,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 900,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:42.687751",
+          "unix_timestamp": 1748576442.6877515,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 145.9448268836328,
+            "game_count": 2960,
+            "win_rate": 0.0,
+            "avg_reward": 0.04930568475798405,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:42.727166",
+          "unix_timestamp": 1748576442.7271664,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 145.9448268836328,
+            "game_count": 2960,
+            "win_rate": 0.0,
+            "avg_reward": 0.04930568475798405,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 920,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:42.734235",
+          "unix_timestamp": 1748576442.734235,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 145.9448268836328,
+            "game_count": 2960,
+            "win_rate": 0.0,
+            "avg_reward": 0.04930568475798405,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 920,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:40:42.748129",
+          "unix_timestamp": 1748576442.7481291,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 145.9368268836328,
+            "game_count": 2960,
+            "win_rate": 0.0,
+            "avg_reward": 0.04930298205528135,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 990,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:08.778394",
+          "unix_timestamp": 1748576468.7783947,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.05608570645557495,
+            "memory_size": 131,
+            "total_reward": 151.7221495859866,
+            "game_count": 3060,
+            "win_rate": 0.0,
+            "avg_reward": 0.049582401825485824,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 863,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:16.192571",
+          "unix_timestamp": 1748576476.1925714,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 152.78305277703967,
+            "game_count": 3082,
+            "win_rate": 0.0,
+            "avg_reward": 0.04957269720215434,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:16.452493",
+          "unix_timestamp": 1748576476.4524937,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 152.78459929917156,
+            "game_count": 3082,
+            "win_rate": 0.0,
+            "avg_reward": 0.04957319899389084,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1087,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:17.366781",
+          "unix_timestamp": 1748576477.3667812,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.09900448802097483,
+            "memory_size": 2,
+            "total_reward": 152.7358543184655,
+            "game_count": 3082,
+            "win_rate": 0.0,
+            "avg_reward": 0.04955738297159815,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 478,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:17.374190",
+          "unix_timestamp": 1748576477.37419,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.09900448802097483,
+            "memory_size": 2,
+            "total_reward": 152.75566653365343,
+            "game_count": 3082,
+            "win_rate": 0.0,
+            "avg_reward": 0.04956381133473505,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 715,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:22.813946",
+          "unix_timestamp": 1748576482.813946,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 154.07544312284725,
+            "game_count": 3102,
+            "win_rate": 0.0,
+            "avg_reward": 0.04966971087132407,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:22.822374",
+          "unix_timestamp": 1748576482.8223739,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 154.07544312284725,
+            "game_count": 3102,
+            "win_rate": 0.0,
+            "avg_reward": 0.04966971087132407,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:22.862857",
+          "unix_timestamp": 1748576482.862857,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 154.0417696534595,
+            "game_count": 3102,
+            "win_rate": 0.0,
+            "avg_reward": 0.049658855465331886,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:22.884236",
+          "unix_timestamp": 1748576482.8842368,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 154.03462679631664,
+            "game_count": 3102,
+            "win_rate": 0.0,
+            "avg_reward": 0.049656552803454754,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1110,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:49.716908",
+          "unix_timestamp": 1748576509.7169085,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 155.62061776984302,
+            "game_count": 3131,
+            "win_rate": 0.0,
+            "avg_reward": 0.049703167604549035,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:49.832951",
+          "unix_timestamp": 1748576509.8329513,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 155.62029123923077,
+            "game_count": 3131,
+            "win_rate": 0.0,
+            "avg_reward": 0.04970306331498907,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:50.034348",
+          "unix_timestamp": 1748576510.0343482,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0996005996001,
+            "memory_size": 2,
+            "total_reward": 155.59339462934716,
+            "game_count": 3131,
+            "win_rate": 0.0,
+            "avg_reward": 0.0496944728934357,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1190,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:41:50.046069",
+          "unix_timestamp": 1748576510.0460696,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0996005996001,
+            "memory_size": 1,
+            "total_reward": 155.59093149533322,
+            "game_count": 3131,
+            "win_rate": 0.0,
+            "avg_reward": 0.04969368620100071,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1000,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:42:30.558028",
+          "unix_timestamp": 1748576550.5580285,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 160.81028227745074,
+            "game_count": 3216,
+            "win_rate": 0.0,
+            "avg_reward": 0.05000319722557548,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:42:30.569681",
+          "unix_timestamp": 1748576550.5696812,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 160.81028227745074,
+            "game_count": 3216,
+            "win_rate": 0.0,
+            "avg_reward": 0.05000319722557548,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:42:31.471733",
+          "unix_timestamp": 1748576551.4717333,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.09910359161258742,
+            "memory_size": 2,
+            "total_reward": 160.77877633920846,
+            "game_count": 3216,
+            "win_rate": 0.0,
+            "avg_reward": 0.04999340060298771,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 792,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:42:41.955033",
+          "unix_timestamp": 1748576561.9550333,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0895784832903913,
+            "memory_size": 1,
+            "total_reward": 160.77628227745075,
+            "game_count": 3216,
+            "win_rate": 0.0,
+            "avg_reward": 0.049992625086271995,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1054,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:16.132652",
+          "unix_timestamp": 1748576596.1326528,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 163.37102119947852,
+            "game_count": 3270,
+            "win_rate": 0.0,
+            "avg_reward": 0.04996055694173655,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 840,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:16.282890",
+          "unix_timestamp": 1748576596.2828908,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0997002999,
+            "memory_size": 1,
+            "total_reward": 163.3993929352696,
+            "game_count": 3270,
+            "win_rate": 0.0,
+            "avg_reward": 0.0499692333135381,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 820,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:16.366987",
+          "unix_timestamp": 1748576596.3669877,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0996005996001,
+            "memory_size": 2,
+            "total_reward": 163.40046302622733,
+            "game_count": 3270,
+            "win_rate": 0.0,
+            "avg_reward": 0.04996956055847931,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 870,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:16.375067",
+          "unix_timestamp": 1748576596.3750672,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 105,
+            "epsilon": 0.0996005996001,
+            "memory_size": 2,
+            "total_reward": 163.39892835919528,
+            "game_count": 3270,
+            "win_rate": 0.0,
+            "avg_reward": 0.049969091241344125,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 800,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:29.090288",
+          "unix_timestamp": 1748576609.0902886,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.07466594429963713,
+            "memory_size": 129,
+            "total_reward": 168.8685915590581,
+            "game_count": 3370,
+            "win_rate": 0.0,
+            "avg_reward": 0.050109374349868875,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8300000000000001,
+            "max_bet_ratio": 0.16999999999999998,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 962,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8300000000000001,
+            "max_bet_ratio": 0.16999999999999998
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:37.570472",
+          "unix_timestamp": 1748576617.5704725,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 171.58660269449834,
+            "game_count": 3425,
+            "win_rate": 0.0,
+            "avg_reward": 0.05009827815897762,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 910,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:37.677702",
+          "unix_timestamp": 1748576617.677703,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 171.47036093625658,
+            "game_count": 3425,
+            "win_rate": 0.0,
+            "avg_reward": 0.05006433895949097,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 730,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:44.638575",
+          "unix_timestamp": 1748576624.638575,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.09193926150309796,
+            "memory_size": 1,
+            "total_reward": 171.60368057611828,
+            "game_count": 3425,
+            "win_rate": 0.0,
+            "avg_reward": 0.050103264401786356,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1244,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:52.466075",
+          "unix_timestamp": 1748576632.4660752,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 174.81791143177102,
+            "game_count": 3486,
+            "win_rate": 0.0,
+            "avg_reward": 0.05014856897067442,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:52.479614",
+          "unix_timestamp": 1748576632.4796147,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 174.81791143177102,
+            "game_count": 3486,
+            "win_rate": 0.0,
+            "avg_reward": 0.05014856897067442,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:52.910059",
+          "unix_timestamp": 1748576632.9100595,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0996005996001,
+            "memory_size": 2,
+            "total_reward": 174.81758490115877,
+            "game_count": 3486,
+            "win_rate": 0.0,
+            "avg_reward": 0.050148475301537224,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 960,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:43:52.921129",
+          "unix_timestamp": 1748576632.9211292,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0996005996001,
+            "memory_size": 1,
+            "total_reward": 174.81613365399323,
+            "game_count": 3486,
+            "win_rate": 0.0,
+            "avg_reward": 0.05014805899426082,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 880,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:06.413785",
+          "unix_timestamp": 1748576646.4137855,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 176.31622790734838,
+            "game_count": 3518,
+            "win_rate": 0.0,
+            "avg_reward": 0.050118313788330975,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:06.422861",
+          "unix_timestamp": 1748576646.422861,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 176.31622790734838,
+            "game_count": 3518,
+            "win_rate": 0.0,
+            "avg_reward": 0.050118313788330975,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 980,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:06.432873",
+          "unix_timestamp": 1748576646.4328735,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 176.30806464204224,
+            "game_count": 3518,
+            "win_rate": 0.0,
+            "avg_reward": 0.05011599336044407,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 970,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:06.523690",
+          "unix_timestamp": 1748576646.52369,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0997002999,
+            "memory_size": 2,
+            "total_reward": 176.3523148638701,
+            "game_count": 3518,
+            "win_rate": 0.0,
+            "avg_reward": 0.05012857159291362,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1130,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:21.018154",
+          "unix_timestamp": 1748576661.0181541,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.07481550048510686,
+            "memory_size": 144,
+            "total_reward": 182.21358052431938,
+            "game_count": 3618,
+            "win_rate": 0.0,
+            "avg_reward": 0.05036306813828618,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1185,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:34.357957",
+          "unix_timestamp": 1748576674.3579571,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 180.08156108774008,
+            "game_count": 3584,
+            "win_rate": 0.0,
+            "avg_reward": 0.05024597128564177,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1360,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:34.530426",
+          "unix_timestamp": 1748576674.5304263,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 180.08505464399227,
+            "game_count": 3584,
+            "win_rate": 0.0,
+            "avg_reward": 0.05024694605022106,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 970,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:36.003574",
+          "unix_timestamp": 1748576676.0035748,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.0986090636999001,
+            "memory_size": 3,
+            "total_reward": 180.11384383887267,
+            "game_count": 3584,
+            "win_rate": 0.0,
+            "avg_reward": 0.05025497874968545,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 901,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:44:46.645344",
+          "unix_timestamp": 1748576686.645345,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 107,
+            "epsilon": 0.08640945798906338,
+            "memory_size": 1,
+            "total_reward": 180.0880691771629,
+            "game_count": 3584,
+            "win_rate": 0.0,
+            "avg_reward": 0.050247787158806616,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1197,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:16.574077",
+          "unix_timestamp": 1748576716.5740776,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.03947649281274488,
+            "memory_size": 130,
+            "total_reward": 186.5197568565244,
+            "game_count": 3684,
+            "win_rate": 0.0,
+            "avg_reward": 0.05062968427158643,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 827,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:24.198212",
+          "unix_timestamp": 1748576724.1982121,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 186.7375345214575,
+            "game_count": 3687,
+            "win_rate": 0.0,
+            "avg_reward": 0.05064755479290955,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1080,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:24.319232",
+          "unix_timestamp": 1748576724.3192327,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 186.70997471284505,
+            "game_count": 3687,
+            "win_rate": 0.0,
+            "avg_reward": 0.05064007993296584,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1260,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:25.278594",
+          "unix_timestamp": 1748576725.2785943,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.09900448802097483,
+            "memory_size": 2,
+            "total_reward": 186.69865391450952,
+            "game_count": 3687,
+            "win_rate": 0.0,
+            "avg_reward": 0.050637009469625585,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 663,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:25.288253",
+          "unix_timestamp": 1748576725.2882535,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.09900448802097483,
+            "memory_size": 1,
+            "total_reward": 186.70744136667082,
+            "game_count": 3687,
+            "win_rate": 0.0,
+            "avg_reward": 0.05063939283066743,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1073,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:37.469636",
+          "unix_timestamp": 1748576737.4696364,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.07671042341100781,
+            "memory_size": 126,
+            "total_reward": 191.75868493703467,
+            "game_count": 3787,
+            "win_rate": 0.0,
+            "avg_reward": 0.050636040384746415,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 945,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:47.419287",
+          "unix_timestamp": 1748576747.4192872,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 192.4330663667634,
+            "game_count": 3806,
+            "win_rate": 0.0,
+            "avg_reward": 0.05056044833598618,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 930,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:47.435702",
+          "unix_timestamp": 1748576747.435702,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0998001,
+            "memory_size": 1,
+            "total_reward": 192.46586206568813,
+            "game_count": 3806,
+            "win_rate": 0.0,
+            "avg_reward": 0.05056906517753235,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 910,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:47.680737",
+          "unix_timestamp": 1748576747.6807373,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0996005996001,
+            "memory_size": 2,
+            "total_reward": 192.4650888386735,
+            "game_count": 3806,
+            "win_rate": 0.0,
+            "avg_reward": 0.05056886201751799,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 870,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:45:48.180425",
+          "unix_timestamp": 1748576748.1804254,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.09910359161258742,
+            "memory_size": 1,
+            "total_reward": 192.4330663667634,
+            "game_count": 3806,
+            "win_rate": 0.0,
+            "avg_reward": 0.05056044833598618,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1055,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:46:11.035545",
+          "unix_timestamp": 1748576771.035545,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.06273609943589789,
+            "memory_size": 184,
+            "total_reward": 199.64305974486598,
+            "game_count": 3906,
+            "win_rate": 0.0,
+            "avg_reward": 0.05111189445593087,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1143,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:46:16.814292",
+          "unix_timestamp": 1748576776.8142922,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.05602962074911938,
+            "memory_size": 160,
+            "total_reward": 199.46377921407867,
+            "game_count": 3906,
+            "win_rate": 0.0,
+            "avg_reward": 0.0510659957025291,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1202,
+            "conservative_mode": true,
+            "aggression_threshold": 0.81,
+            "max_bet_ratio": 0.19
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:46:16.824626",
+          "unix_timestamp": 1748576776.8246267,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.05069516085956255,
+            "memory_size": 375,
+            "total_reward": 207.65532278219212,
+            "game_count": 4006,
+            "win_rate": 0.0,
+            "avg_reward": 0.051836076580677015,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1088,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:46:23.433772",
+          "unix_timestamp": 1748576783.4337723,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.04011351786721455,
+            "memory_size": 534,
+            "total_reward": 214.33572103446883,
+            "game_count": 4106,
+            "win_rate": 0.0,
+            "avg_reward": 0.05220061398793688,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8300000000000001,
+            "max_bet_ratio": 0.16999999999999998,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 903,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8300000000000001,
+            "max_bet_ratio": 0.16999999999999998
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:46:40.440443",
+          "unix_timestamp": 1748576800.4404428,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.033941207128512535,
+            "memory_size": 297,
+            "total_reward": 205.7195201420538,
+            "game_count": 4006,
+            "win_rate": 0.0,
+            "avg_reward": 0.05135285075937439,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 925,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:46:49.443699",
+          "unix_timestamp": 1748576809.4436991,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.02524130467175496,
+            "memory_size": 428,
+            "total_reward": 211.4909099608846,
+            "game_count": 4106,
+            "win_rate": 0.0,
+            "avg_reward": 0.051507771544297275,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8400000000000001,
+            "max_bet_ratio": 0.15999999999999998,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 985,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8400000000000001,
+            "max_bet_ratio": 0.15999999999999998
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:01.059154",
+          "unix_timestamp": 1748576821.0591545,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 213.9706133795125,
+            "game_count": 4151,
+            "win_rate": 0.0,
+            "avg_reward": 0.05154676304011383,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 775,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:01.206917",
+          "unix_timestamp": 1748576821.2069175,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0998001,
+            "memory_size": 2,
+            "total_reward": 214.10145170286583,
+            "game_count": 4151,
+            "win_rate": 0.0,
+            "avg_reward": 0.051578282751834695,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 815,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:01.217263",
+          "unix_timestamp": 1748576821.217264,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0998001,
+            "memory_size": 3,
+            "total_reward": 214.09996821822222,
+            "game_count": 4151,
+            "win_rate": 0.0,
+            "avg_reward": 0.051577925371771194,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 755,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:01.227730",
+          "unix_timestamp": 1748576821.2277308,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0998001,
+            "memory_size": 3,
+            "total_reward": 214.09996821822222,
+            "game_count": 4151,
+            "win_rate": 0.0,
+            "avg_reward": 0.051577925371771194,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 755,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:05.470166",
+          "unix_timestamp": 1748576825.4701664,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 214.3044720258973,
+            "game_count": 4154,
+            "win_rate": 0.0,
+            "avg_reward": 0.0515899066022863,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 920,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:07.247473",
+          "unix_timestamp": 1748576827.247474,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0994014980014994,
+            "memory_size": 1,
+            "total_reward": 214.35327734403594,
+            "game_count": 4154,
+            "win_rate": 0.0,
+            "avg_reward": 0.051601655595579186,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1033,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:07.797013",
+          "unix_timestamp": 1748576827.797013,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.09910359161258742,
+            "memory_size": 1,
+            "total_reward": 214.1614326884232,
+            "game_count": 4154,
+            "win_rate": 0.0,
+            "avg_reward": 0.05155547248156552,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 358,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:07.944728",
+          "unix_timestamp": 1748576827.9447286,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.09900448802097483,
+            "memory_size": 2,
+            "total_reward": 214.32201310238455,
+            "game_count": 4154,
+            "win_rate": 0.0,
+            "avg_reward": 0.051594129297637105,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 665,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:47:31.924290",
+          "unix_timestamp": 1748576851.9242907,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.07459127835533749,
+            "memory_size": 126,
+            "total_reward": 219.0606133407204,
+            "game_count": 4254,
+            "win_rate": 0.0,
+            "avg_reward": 0.05149520764944062,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 496,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8200000000000001,
+            "max_bet_ratio": 0.18
+          }
+        },
+        {
+          "timestamp": "2025-05-30T12:04:26.580926",
+          "unix_timestamp": 1748577866.580927,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 216.11665092903436,
+            "game_count": 4183,
+            "win_rate": 0.0,
+            "avg_reward": 0.05166546759001539,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1180,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T12:04:26.797956",
+          "unix_timestamp": 1748577866.797956,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0997002999,
+            "memory_size": 2,
+            "total_reward": 216.13508334212838,
+            "game_count": 4183,
+            "win_rate": 0.0,
+            "avg_reward": 0.05166987409565584,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 1014,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        },
+        {
+          "timestamp": "2025-05-30T12:04:42.780882",
+          "unix_timestamp": 1748577882.780882,
+          "stats": {
+            "q_table_size": 61,
+            "total_states": 108,
+            "epsilon": 0.0999,
+            "memory_size": 1,
+            "total_reward": 216.19762861884593,
+            "game_count": 4195,
+            "win_rate": 0.0,
+            "avg_reward": 0.05153697940854492,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2,
+            "bot_type": "Conservative"
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "models/conservative_rl_bot_model.pkl",
+            "current_chips": 904,
+            "conservative_mode": true,
+            "aggression_threshold": 0.8,
+            "max_bet_ratio": 0.2
+          }
+        }
+      ],
+      "statistics": {
+        "total_training_time": 0,
+        "total_hands": 4254,
+        "best_win_rate": 0,
+        "current_streak": 0,
+        "longest_streak": 0
+      }
+    }
+  },
+  "metadata": {
+    "created_at": "2025-05-30T11:20:15.907580",
+    "last_updated": "2025-05-30T12:13:45.671176",
+    "total_snapshots": 176
+  }
+}

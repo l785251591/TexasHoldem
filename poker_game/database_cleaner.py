@@ -27,7 +27,7 @@ class DatabaseCleaner:
         'small': 5000           # 5千条记录 - 暂不需要
     }
     
-    def __init__(self, db_path: str = "poker_game.db"):
+    def __init__(self, db_path: str = "data/poker_game.db"):
         self.db_path = db_path
     
     def check_database_status(self) -> Dict[str, Any]:

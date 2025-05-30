@@ -7,7 +7,7 @@ import os
 class GameDatabase:
     """游戏数据库管理类"""
     
-    def __init__(self, db_path: str = "poker_game.db"):
+    def __init__(self, db_path: str = "data/poker_game.db"):
         self.db_path = db_path
         self.init_database()
     

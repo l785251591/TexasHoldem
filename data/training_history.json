@@ -1,0 +1,383 @@
+{
+  "bots": {
+    "rl_bot": {
+      "name": "原版强化学习机器人",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T11:06:05.031394",
+          "unix_timestamp": 1748574365.0313942,
+          "stats": {
+            "q_table_size": 565,
+            "total_states": 4030,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 1,
+            "total_reward": -8.399999999999983,
+            "win_rate": 0.01,
+            "avg_reward": -0.08399999999999982
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 490
+          },
+          "calculated_win_rate": 1.0
+        },
+        {
+          "timestamp": "2025-05-30T11:06:51.019729",
+          "unix_timestamp": 1748574411.0197294,
+          "stats": {
+            "q_table_size": 568,
+            "total_states": 4048,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 5,
+            "total_reward": -2.0000000000000044,
+            "win_rate": 0.05,
+            "avg_reward": -0.020000000000000046
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 580
+          },
+          "calculated_win_rate": 5.0
+        },
+        {
+          "timestamp": "2025-05-30T11:06:56.256747",
+          "unix_timestamp": 1748574416.2567475,
+          "stats": {
+            "q_table_size": 568,
+            "total_states": 4048,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 15,
+            "total_reward": 3.9999999999999925,
+            "win_rate": 0.075,
+            "avg_reward": 0.019999999999999962
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 130
+          },
+          "calculated_win_rate": 7.5
+        },
+        {
+          "timestamp": "2025-05-30T11:07:02.220624",
+          "unix_timestamp": 1748574422.220624,
+          "stats": {
+            "q_table_size": 568,
+            "total_states": 4052,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 8,
+            "total_reward": 2.7999999999999954,
+            "win_rate": 0.08,
+            "avg_reward": 0.027999999999999955
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 450
+          },
+          "calculated_win_rate": 8.0
+        },
+        {
+          "timestamp": "2025-05-30T11:07:12.950499",
+          "unix_timestamp": 1748574432.9504995,
+          "stats": {
+            "q_table_size": 569,
+            "total_states": 4057,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 8,
+            "total_reward": 2.799999999999994,
+            "win_rate": 0.08,
+            "avg_reward": 0.02799999999999994
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 500
+          },
+          "calculated_win_rate": 8.0
+        },
+        {
+          "timestamp": "2025-05-30T11:07:17.058226",
+          "unix_timestamp": 1748574437.0582263,
+          "stats": {
+            "q_table_size": 569,
+            "total_states": 4058,
+            "epsilon": 0.01,
+            "memory_size": 200,
+            "game_count": 200,
+            "win_count": 17,
+            "total_reward": 6.7476190476190645,
+            "win_rate": 0.085,
+            "avg_reward": 0.033738095238095324
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 20
+          },
+          "calculated_win_rate": 8.5
+        },
+        {
+          "timestamp": "2025-05-30T11:07:24.035924",
+          "unix_timestamp": 1748574444.0359242,
+          "stats": {
+            "q_table_size": 569,
+            "total_states": 4058,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 3,
+            "total_reward": -5.1999999999999895,
+            "win_rate": 0.03,
+            "avg_reward": -0.051999999999999894
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 530
+          },
+          "calculated_win_rate": 3.0
+        },
+        {
+          "timestamp": "2025-05-30T11:07:40.119861",
+          "unix_timestamp": 1748574460.1198616,
+          "stats": {
+            "q_table_size": 570,
+            "total_states": 4068,
+            "epsilon": 0.01,
+            "memory_size": 100,
+            "game_count": 100,
+            "win_count": 2,
+            "total_reward": -6.924999999999981,
+            "win_rate": 0.02,
+            "avg_reward": -0.06924999999999981
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "rl_bot_model.pkl",
+            "current_chips": 520
+          },
+          "calculated_win_rate": 2.0
+        }
+      ],
+      "statistics": {
+        "total_training_time": 0,
+        "total_hands": 200,
+        "best_win_rate": 8.5,
+        "current_streak": 0,
+        "longest_streak": 3
+      }
+    },
+    "improved_rl_bot": {
+      "name": "改进版强化学习机器人",
+      "snapshots": [
+        {
+          "timestamp": "2025-05-30T11:05:56.526467",
+          "unix_timestamp": 1748574356.5264676,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.14607242197939527,
+            "memory_size": 1,
+            "total_reward": 202.63784102061103,
+            "game_count": 375,
+            "win_rate": 0.3973333333333333,
+            "avg_reward": 0.5403675760549628
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1020
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:06:18.309905",
+          "unix_timestamp": 1748574378.3099058,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.12578387447322642,
+            "memory_size": 1,
+            "total_reward": 225.3186183919363,
+            "game_count": 413,
+            "win_rate": 0.4019370460048426,
+            "avg_reward": 0.5455656619659475
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1220
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:06:42.761757",
+          "unix_timestamp": 1748574402.7617574,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.10349428418930906,
+            "memory_size": 2,
+            "total_reward": 239.48135807867783,
+            "game_count": 432,
+            "win_rate": 0.41203703703703703,
+            "avg_reward": 0.554354995552495
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 0
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:06:45.347240",
+          "unix_timestamp": 1748574405.3472404,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.10328745081061609,
+            "memory_size": 1,
+            "total_reward": 240.8960949207831,
+            "game_count": 433,
+            "win_rate": 0.4133949191685912,
+            "avg_reward": 0.5563420206022704
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1005
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:06:57.578207",
+          "unix_timestamp": 1748574417.5782075,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.10159677163710008,
+            "memory_size": 1,
+            "total_reward": 240.3435203766222,
+            "game_count": 447,
+            "win_rate": 0.40492170022371365,
+            "avg_reward": 0.5376812536389758
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1040
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:07:06.944002",
+          "unix_timestamp": 1748574426.9440022,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.1014952002646559,
+            "memory_size": 1,
+            "total_reward": 241.65763802368102,
+            "game_count": 448,
+            "win_rate": 0.40625,
+            "avg_reward": 0.5394143705885737
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1020
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:07:18.043979",
+          "unix_timestamp": 1748574438.0439794,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.09958452268103962,
+            "memory_size": 4,
+            "total_reward": 250.31659188869247,
+            "game_count": 455,
+            "win_rate": 0.41098901098901097,
+            "avg_reward": 0.5501463557993241
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1272
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:07:27.951154",
+          "unix_timestamp": 1748574447.9511542,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.09874143166213158,
+            "memory_size": 1,
+            "total_reward": 255.37577947592442,
+            "game_count": 461,
+            "win_rate": 0.41431670281995664,
+            "avg_reward": 0.5539604760866039
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 1020
+          }
+        },
+        {
+          "timestamp": "2025-05-30T11:07:32.587619",
+          "unix_timestamp": 1748574452.5876195,
+          "stats": {
+            "q_table_size": 130,
+            "total_states": 685,
+            "epsilon": 0.09864271491582738,
+            "memory_size": 1,
+            "total_reward": 254.95577947592443,
+            "game_count": 462,
+            "win_rate": 0.4134199134199134,
+            "avg_reward": 0.5518523365279749
+          },
+          "session_info": {
+            "snapshot_interval": 100,
+            "model_path": "improved_rl_bot_model.pkl",
+            "current_chips": 560
+          }
+        }
+      ],
+      "statistics": {
+        "total_training_time": 0,
+        "total_hands": 462,
+        "best_win_rate": 0,
+        "current_streak": 0,
+        "longest_streak": 0
+      }
+    },
+    "conservative_rl_bot": {
+      "name": "保守版强化学习机器人",
+      "snapshots": [],
+      "statistics": {
+        "total_training_time": 0,
+        "total_hands": 0,
+        "best_win_rate": 0,
+        "current_streak": 0,
+        "longest_streak": 0
+      }
+    }
+  },
+  "metadata": {
+    "created_at": "2025-05-30T11:05:56.526467",
+    "last_updated": "2025-05-30T11:07:40.119861",
+    "total_snapshots": 17
+  }
+}
